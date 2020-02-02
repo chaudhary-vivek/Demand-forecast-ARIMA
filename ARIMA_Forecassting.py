@@ -4,7 +4,7 @@ import pandas as pd
 import statsmodels.api as sm
 
 #Importing the data
-df=pd.read_csv('D:\Docs\DS\ARIMA forecasting\Arima-master\Arima-master\perrin-freres-monthly-champagne-.csv')
+df=pd.read_csv('perrin-freres-monthly-champagne-.csv')
 
 #The data contains NaN in the last two rows
 df.drop([105,106], axis=0, inplace=True)
